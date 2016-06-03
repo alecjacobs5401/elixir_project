@@ -35,8 +35,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :elixir_project, ElixirProject.Repo,
   adapter: Ecto.Adapters.MySQL,
-  username: "root",
-  password: "",
-  database: "elixir_project_dev",
+  username: "rr_dev",
+  password: "dev",
+  database: "rr_dev-default-web",
   hostname: "localhost",
   pool_size: 10
