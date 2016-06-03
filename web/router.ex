@@ -17,6 +17,7 @@ defmodule ElixirProject.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    resources "/dynamic_number_pools", DynamicNumberPoolController
   end
 
   # Other scopes may use custom stacks.
