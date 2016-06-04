@@ -39,4 +39,5 @@ config :elixir_project, ElixirProject.Repo,
   password: "dev",
   database: "rr_dev-default-web",
   hostname: "localhost",
+  port: 3307,
   pool_size: 10

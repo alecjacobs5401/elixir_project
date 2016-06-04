@@ -158,4 +158,9 @@ defmodule ElixirProject.DynamicNumberPool do
     |> cast(params, @required_fields, @optional_fields)
   end
 
+  def all do
+    query = from dnp in ElixirProject.DynamicNumberPool, select: dnp
+    #Simple.Repo.all(query)
+  end
+
 end
